@@ -1,0 +1,7 @@
+{
+  "name": "ionic-weather-app-ui",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
