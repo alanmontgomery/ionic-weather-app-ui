@@ -14,7 +14,7 @@ const Tab2 = () => {
 
   const getAddress = async city => {
 
-    const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=f93eb660b2424258bf5155016210712&q=${ city }&aqi=no`);
+    const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=f93eb660b2424258bf5155016210712&q=${ city }&aqi=no`);
     const data = await response.json();
 
     if (data && data.current && data.location) {
